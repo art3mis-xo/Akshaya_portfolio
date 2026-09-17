@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <defs>
+      <linearGradient id="achBg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#162447"/>
+        <stop offset="100%" stop-color="#0A1128"/>
+      </linearGradient>
+      <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFC857"/>
+        <stop offset="100%" stop-color="#E6AF2E"/>
+      </linearGradient>
+    </defs>
+
+    <rect width="800" height="600" fill="url(#achBg)"/>
+    <rect x="20" y="20" width="760" height="560" rx="16" fill="none" stroke="url(#goldAcc)" stroke-width="2"/>
+
+    <!-- Trophy / Medal Icon -->
+    <g transform="translate(400, 220)">
+      <circle cx="0" cy="0" r="70" fill="#0D1630" stroke="url(#goldAcc)" stroke-width="4"/>
+      <!-- Star / Award Icon -->
+      <polygon points="0,-40 12,-12 40,-8 18,12 24,40 0,24 -24,40 -18,12 -40,-8 -12,-12" fill="#FFC857"/>
+    </g>
+
+    <!-- Text -->
+    <text x="400" y="370" font-family="Inter, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">NUS Anti-Scam Volunteer</text>
+    <text x="400" y="420" font-family="Inter, sans-serif" font-size="20" font-weight="500" fill="#FFC857" text-anchor="middle">AI Deepfake & Phishing Training</text>
+    <text x="400" y="480" font-family="Inter, sans-serif" font-size="16" fill="#A0AEC0" text-anchor="middle">NATIONAL UNIVERSITY OF SINGAPORE / SRET</text>
+  </svg>
